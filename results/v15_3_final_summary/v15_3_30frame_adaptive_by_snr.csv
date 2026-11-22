@@ -1,0 +1,7 @@
+Channel,PilotDataSNR_dB,PER,CRCGoodput_bpsHz,SpatialMultiplexingDataRatio_pct,QAM16DataRatio_pct,FECDataRatio_pct,PERFeasibleDecisionRatio_pct
+rayleigh,8,0.4167,0.34,1,0,96,7
+rayleigh,14,0.2722,0.67,0,1,46,11
+rayleigh,20,0.3315,0.98,1,34,25,4
+rician,8,0.137,0.62,0,0,66,32
+rician,14,0.0963,1.11,5,1,0,37
+rician,20,0.137,1.67,19,46,1,22

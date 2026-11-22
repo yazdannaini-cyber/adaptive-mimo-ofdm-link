@@ -1,0 +1,5 @@
+Channel,FramesPerCondition,JointCRCGoodput_bpsHz
+rayleigh,10,0.68295
+rayleigh,30,0.66
+rician,10,1.1537
+rician,30,1.13

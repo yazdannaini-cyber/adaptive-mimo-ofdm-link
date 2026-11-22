@@ -1,0 +1,47 @@
+*.asv
+*.m~
+*.fig
+results/*.csv
+results/*.mat
+results/*.png
+
+quick_results/
+validation_results/
+
+# Keep curated baseline/validated results; ignore only generated run artifacts.
+!results/baseline_fixed_modulation_results.csv
+!results/baseline_adaptive_modulation_results.csv
+!results/adaptive_validation_v4_user_results.csv
+comparison_results/*.csv
+comparison_results/*.mat
+comparison_results/*.png
+adaptive_mimo_results/*.csv
+adaptive_mimo_results/*.mat
+adaptive_mimo_results/*.png
+
+spatial_correlation_results/
+# Generated estimator and covariance-aware receiver experiment outputs.
+estimator_mse_results/
+spatial_aware_lmmse_results/
+covariance_aware_receiver_results/
+
+# Generated Doppler channel-validation outputs.
+doppler_validation_results/
+
+# Generated V12 temporal pilot-tracking outputs.
+pilot_tracking_results/
+
+# Generated V13/V14 waveform-level pilot-mapped OFDM results.
+pilot_mapped_results/
+pilot_mapped_results_v15/
+
+# V15.1 burst-adaptive pilot-mapped outputs
+pilot_mapped_results_v15_1/
+
+# V15.2 statistical and packet-level validation outputs
+pilot_mapped_results_v15_2/
+
+pilot_mapped_results_v15_2_1/
+
+# V15.3 joint adaptive link validation outputs
+pilot_mapped_results_v15_3/
